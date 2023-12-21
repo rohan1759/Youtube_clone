@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@600&display=swap');
+
+.navbar{
+    /* background-color: aquamarine; */
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    padding: 0.6rem 0rem;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar_1stDiv{
+    display: flex;
+    align-items: center;
+}
+
+.menuIcon{
+    margin: 0rem 1.2rem 0rem 1.2rem;
+}
+
+.navbar_1stDiv p{
+    /* font-family: "Bahnschrift"; */
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 1.8rem;
+    
+}
+
+.navbar_2ndDiv{
+    display: flex;
+    align-items: center;
+}
+
+.navbar_2ndDiv>div{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-right: 0.8rem;
+}
+
+.navbar_2ndDiv>div>input{
+    width: 38vw;
+    outline: none;
+    padding: 0px 5px 0px 18px;
+    border: 0px;
+    border-radius: 25px 0px 0px 25px;
+    background-color: transparent;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.searchIcon{
+    padding: 8px 18px;
+    border-left: 1px solid black;
+}
+
+.micIcon{
+    border: 1px solid black;
+    padding: 8px 8px;
+    border-radius: 22px;
+}
+
+.navbar_3rdDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 12vw;
+    margin-right: 1.6rem;
+}
+
+.navbar_3rdDiv > p{
+    border: 1.5px solid black;
+    border-radius: 18px;
+    font-size: 1.2rem;
+    padding: 4px 10px;
+}
+
+.notificationIcon{
+    margin: 0rem 1.4rem;
+}

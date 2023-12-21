@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.cardDiv{
+    display: flex;
+    width: min-content;
+    padding: 3px 5px;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.cardDiv:hover #thumbnail{
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 0px rgb(0, 0, 0);
+}
+
+#thumbnail{
+    border-radius: 10px;
+    width: 370px;
+    height: 208px;
+    object-fit: cover;
+}
+
+#duration{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card_lower{
+    display: flex;
+    margin-top: -4px;   
+}
+
+#avatar{
+    margin-right: 0.6rem;
+    margin-top: 0.3rem;
+    border-radius: 50%;
+}
+
+.detail{
+    box-sizing: border-box;
+    padding: 0px 8px;
+}
+
+#title{
+    text-wrap: wrap;
+    font-size: 16px;
+    color: #0F0F0F;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0.3rem;
+    line-height: 22px;
+
+}
+
+#channel{
+    color: #606060;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0.1rem;
+}
+
+#views{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #606060;
+}
+
+#duration{
+    position: relative;
+    bottom: 24px;
+    left: 83%;
+    color: white;
+    background-color: black;
+    width: fit-content;
+    padding: 0px 4px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+/* 
+    position: relative;
+    bottom: 24px;
+    left: 83%;
+    color: white;
+    background-color: black;
+    width: fit-content;
+    padding: 0px 4px;
+    border-radius: 5px;
+*/
+
+
+/* 
+position: relative;
+bottom: 32px;
+left: 83%;
+background-color: black;
+color: white;
+padding: 1px 5px;
+font-size: 12px;
+border-radius: 5px; 
+*/

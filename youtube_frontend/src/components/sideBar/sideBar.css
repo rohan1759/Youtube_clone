@@ -1,0 +1,22 @@
+.sidebar{
+    position: fixed;
+    /* height: 100%; */
+    /* top: 64.99px; */
+    z-index: 75;
+    /* width: 5.34vw; */
+    background-color: white;
+}
+
+.sidebar_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black;  */
+    /* width: fit-content; */
+    margin-bottom: 0.5rem;
+    padding: 0.6rem 0.6rem;
+}
+
+.sidebar_block>p{
+    font-size: 8px;
+}

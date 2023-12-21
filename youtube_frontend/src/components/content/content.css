@@ -1,0 +1,9 @@
+.contentDiv{
+    /* background-color: beige; */
+    padding-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 3.5rem;
+
+}
